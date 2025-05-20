@@ -29,9 +29,9 @@ Este proyecto parsea partidas de ajedrez en notación SAN (Standard Algebraic No
 javac -d out src/*.java
 
 # Ejecutar aplicación Swing:
-java -cp out Main partida_san.txt
+java -cp out Main juego.txt
 
 # Para exportar .dot y generar PNG:
-java -cp out Main partida_san.txt --export-gfx partida.dot
+java -cp out Main juego.txt --export-gfx salida.dot
 dot -Tpng partida.dot -o partida.png
 ```

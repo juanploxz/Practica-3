@@ -33,5 +33,8 @@ java -cp out Main juego.txt
 
 # Para exportar .dot y generar PNG:
 java -cp out Main juego.txt --export-gfx salida.dot
-dot -Tpng partida.dot -o partida.png
+dot -Tpng partida.dot -o partida.png (en caso de tener Graphviz).
+
+# Para visualizar el .dot generado (Graphviz) alternativamente se puede usar el archivo en esta pagina:
+https://dreampuf.github.io/GraphvizOnline
 ```
